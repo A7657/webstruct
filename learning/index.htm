@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubhamkr html structure</title>
+</head>
+<body>
+    <style>
+        .outer{
+            border: 5px solid red;
+        }
+         .nav{
+            border: 2px solid blue;
+            height: calc(100%-80%);
+            display: flex;
+        }
+        .below-nav{
+            height: calc(100%-20%);
+            border: 2px solid green;
+        }
+        .one{
+            border: 2px solid yellowgreen;
+            width:40%;
+        }
+        .two{
+            display: flex;
+            border: 2px solid yellow;
+            width:60%;
+        }
+        .side-menu{
+            width:20%;
+            border: 2px solid black;
+        }
+        .main{
+            width: 80%;
+            border: 2px solid pink;
+        }
+        .d-home{
+            border: 1.5px solid darkblue;
+        }
+        .d-about{
+            border: 1.5px solid orangered;
+        }
+        .d-tech{
+            border: 1.5px solid white;
+        }
+        .d-project{
+            border: 1.5px solid green;
+        }
+        .d-exp{
+            border: 1.5px solid grey;
+        }
+        .d-contact{
+            border: 1.5px solid blueviolet;
+        }
+        .d-loving{
+            border: 1.5px solid purple;
+        }
+        .footer{
+            border: 1.5px solid teal;
+        }
+    </style>
+<div class="outer">
+    <div class="nav">
+        <div class="one"></div>
+        <div class="two">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div> 
+    <div class ="below-nav" style="display: flex;">
+        <div class="side-menu">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="main">
+            <div class="d-home">
+                <div class="h-detail">
+                    <div class="h-hey"></div>
+                    <div class="h-heading"></div>
+                    <div class="h-subheading"></div>
+                    <div class="h-para"></div>
+                    <div class="h-about-button"></div>
+                </div>
+                <div class="homepic"></div>
+            </div>
+            <div class="d-about">
+                <div class="a-header"></div>
+                <div class="a-below-header">
+                    <div class="a-below-pic"></div>
+                    <div class="a-detail">
+                        <div class="a-name"></div>
+                        <div class="a-role"></div>
+                        <div class="a-para"></div>
+                        <div class="a-feature">
+                            <div class="a-resumebtn"></div>
+                            <div class="a-1-1-callbtn"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-tech">
+                <div class="t-header"></div>
+                <div class="t-tab">
+                    <div class="t-frontendbtn"></div>
+                    <div class="t-backendbtn"></div>
+                    <div class="t-toolsbtn"></div>
+                </div>
+                <div class="t-display">
+                    <!-- as per req. -->
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="d-project">
+                <div class="p-header"></div>
+                <div class="p-tab">
+                    <div class="p-angularbtn"></div>
+                    <div class="p-blogbtn"></div>
+                    <div class="p-basicwebbtn"></div>
+                    <div class="p-packagebtn"></div>
+                    <div class="p-flutterbtn"></div>
+                </div>
+                <div class="p-display">
+                    <!-- as per req. -->
+                    <div class="p-d-one">
+                        <div class="p-d-onepic"></div>
+                        <div class="p-d-onedetail">
+                            <div class="p-d-header"></div>
+                            <div class="p-d-subheader"></div>
+                        </div>
+                    </div>
+                    <div class="p-d-two">
+                        <div class="p-d-twopic"></div>
+                        <div class="p-d-twodetail">
+                            <div class="p-d-header"></div>
+                            <div class="p-d-subheader"></div>
+                        </div>
+                    </div>
+                    <div class="p-d-three">
+                        <div class="p-d-threepic"></div>
+                        <div class="p-d-threedetail">
+                            <div class="p-d-header"></div>
+                            <div class="p-d-subheader"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-exp">
+                <div class="e-header"></div>
+                <div class="e-tab">
+                    <div class="e-experiencebtn"></div>
+                    <div class="t-educationbtn"></div>
+                </div>
+                <div class="e-detail">
+                    <div class="e-d-leftline"></div>
+                    <div class="e-d-right">
+                        <div></div>
+                        <div></div>                  
+                    </div>
+                </div>
+                <!--- view all button is missing-->
+            </div>
+            <div class="d-contact">
+                <div class="c-header"></div>
+                <div class="c-preform">
+                    <div class="c-p-head"></div>
+                    <div class="c-p-subhead"></div>
+                </div>
+                <div class="c-form">
+                    <div class="c-form-name"></div>
+                    <div class="c-form-email"></div>
+                    <div class="c-form-msg"></div>
+                    <div class="c-form-hellobtn"></div>                
+                </div>
+            </div>
+            <div class="d-loving">
+                <div class="l-image"></div>
+                <div class="l-detail">
+                    <div class="l-d-header1"></div>
+                    <div class="l-d-header2"></div>
+                    <div class="l-d-header3"></div>
+                    <div class="l-d-header4">
+                        <div class="l-d-header4-fork"></div>
+                        <div class="l-d-header4-visit"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer"></div>
+           
+        </div>
+    </div>  
+
+</div>
+</body>
+</html>
